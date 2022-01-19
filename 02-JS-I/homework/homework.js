@@ -26,11 +26,9 @@ const nuevoModulo = 21 % 5 === 1;
 // No cambies los nombres de las funciones.
 
 function devolverString(str) {
-  var devuelve = "perrito";
-  return devuelve;  
+  return str;
 }
-devolverString(perrito)
-perrito
+
 
 function suma(x, y) {
   var sumar = x + y;
@@ -62,8 +60,11 @@ divide(15, 3);
 
 
 function sonIguales(x, y) {
-  if sonIguales (x, y)
+  if (x === y) {
   return true;
+} else {
+  return false;
+}
 }
 sonIguales(4, 4)
 true
