@@ -56,8 +56,9 @@ function divide(x, y) {
   var dividir = 15 / 3;
   return dividir;
 }
-divide(15, 3)
+divide()
 5
+
 
 
 
@@ -70,6 +71,7 @@ function sonIguales(x, y) {
 }
 sonIguales(4, 4)
 true
+
 
 
 function tienenMismaLongitud(str1, str2) {
@@ -86,6 +88,7 @@ menosQueNoventa(85)
 true
 
 
+
 function mayorQueCincuenta(num) {
    return num >50;
 }
@@ -93,11 +96,13 @@ mayorQueCincuenta(55)
 true
 
 
+
 function obtenerResto(x, y) {
 return x % y;
 }
 obtenerResto(12, 4)
 0
+
 
 
 function esPar(num) {
@@ -112,6 +117,7 @@ esPar(2)
 true
 
 
+
 function esImpar(num) {
   
   if (num % 2 === 1) {
@@ -124,12 +130,14 @@ esImpar(3)
 true
 
 
+
 function elevarAlCuadrado(num) {
 
 return Math.pow(4, 2);
 }
  elevarAlCuadrado(4, 2)
  16
+
 
 
 function elevarAlCubo(num) {
@@ -139,12 +147,14 @@ function elevarAlCubo(num) {
 elevarAlCubo( 3, 3)
 27
 
+
 function elevar(num, exponent) {
 
   return Math.pow( 5, 5);
 }
 elevar(5, 5)
 3125
+
 
 
 function redondearNumero(num) {
@@ -154,6 +164,7 @@ function redondearNumero(num) {
 redondearNumero (8.4)
 8
 
+
 function redondearHaciaArriba(num) {
 
   return Math.ceil( 6.2);
@@ -161,12 +172,15 @@ function redondearHaciaArriba(num) {
 redondearHaciaArriba( 6.2)
 7
 
+
 function numeroRandom() {
 
   return Math.random( 1)
 }
 numeroRandom ( 1)
 0.4808
+
+
 
 function esPositivo(numero) {
   if (numero === 0) {
@@ -180,7 +194,8 @@ function esPositivo(numero) {
   }
 }
   esPositivo(22)
-  
+  'es positivo'
+
 
 function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
@@ -195,6 +210,8 @@ function combinarNombres(nombre, apellido) {
   return combineta;
 }
 combinarNombres()
+'Gianni Crisci'
+
  
 
 function obtenerSaludo(nombre) {
@@ -207,22 +224,29 @@ function obtenerSaludo(nombre) {
 function obtenerAreaRectangulo(alto, ancho) {
   // Retornar el area de un rectángulo teniendo su altura y ancho
   // Tu código:
-  
+  return 15 * 10;
+
 }
+obtenerAreaRectangulo ()
+150
 
 
 function retornarPerimetro(lado){
   //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
   //Escribe tu código aquí
-  
+  return 12 * 4;
 }
+retornarPerimetro()
+48
 
 
 function areaDelTriangulo(base, altura){
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
-
+return (15 * 12) /2;
 }
+areaDelTriangulo ()
+90
 
 
 function deEuroAdolar(euro){
