@@ -28,35 +28,37 @@ const nuevoModulo = 21 % 5 === 1;
 function devolverString(str) {
   return str;
 }
-
+devolverString()
 
 function suma(x, y) {
   var sumar = x + y;
   return sumar;
 }
-suma(4, 5);
-9
+suma(4, 5)
+
 
 function resta(x, y) {
   var restar = x - y;
   return restar;
 }
-resta(33, 20);
-13
+resta(33, 20)
+
 
 function multiplica(x, y) {
  var multiplicar = x * y;
  return multiplicar;
 }
-multiplica(4 , 3);
+multiplica(4 , 3)
 12
+
 
 function divide(x, y) {
   var dividir = 15 / 3;
   return dividir;
 }
-divide(15, 3);
+divide(15, 3)
 5
+
 
 
 function sonIguales(x, y) {
@@ -68,6 +70,7 @@ function sonIguales(x, y) {
 }
 sonIguales(4, 4)
 true
+
 
 function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
@@ -82,17 +85,20 @@ function menosQueNoventa(num) {
 menosQueNoventa(85)
 true
 
+
 function mayorQueCincuenta(num) {
    return num >50;
 }
 mayorQueCincuenta(55)
 true
 
+
 function obtenerResto(x, y) {
 return x % y;
 }
 obtenerResto(12, 4)
 0
+
 
 function esPar(num) {
  if (num % 2 === 0) {
@@ -105,6 +111,7 @@ function esPar(num) {
 esPar(2)
 true
 
+
 function esImpar(num) {
   
   if (num % 2 === 1) {
@@ -116,12 +123,14 @@ function esImpar(num) {
 esImpar(3)
 true
 
+
 function elevarAlCuadrado(num) {
 
-return Math.pow( 4, 2);
+return Math.pow(4, 2);
 }
- elevarAlCuadrado( 4, 2)
-16
+ elevarAlCuadrado(4, 2)
+ 16
+
 
 function elevarAlCubo(num) {
 
@@ -132,17 +141,18 @@ elevarAlCubo( 3, 3)
 
 function elevar(num, exponent) {
 
-  return Math.pow( 12, 5);
+  return Math.pow( 5, 5);
 }
-elevar(12, 5)
-248832
+elevar(5, 5)
+3125
+
 
 function redondearNumero(num) {
 
-  return Math.round (7.4);
+  return Math.round (8.4);
 }
-redondearNumero (7.4)
-7
+redondearNumero (8.4)
+8
 
 function redondearHaciaArriba(num) {
 
@@ -156,7 +166,7 @@ function numeroRandom() {
   return Math.random( 1)
 }
 numeroRandom ( 1)
-0.62573
+0.4808
 
 function esPositivo(numero) {
   if (numero === 0) {
@@ -170,7 +180,7 @@ function esPositivo(numero) {
   }
 }
   esPositivo(22)
-  "es positivo"
+  
 
 function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
@@ -185,7 +195,7 @@ function combinarNombres(nombre, apellido) {
   return combineta;
 }
 combinarNombres()
-Gianni Crisci
+ 
 
 function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
