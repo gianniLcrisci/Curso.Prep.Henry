@@ -77,27 +77,15 @@ function tienenMismaLongitud(str1, str2) {
 }
 
 function menosQueNoventa(num) {
-  
-  if (num< 90); {
-  return true;
-} 
-else {
-return false;
+  return num< 90;
 }
-}
-menosQueNoventa(87)
+menosQueNoventa(85)
 true
 
 function mayorQueCincuenta(num) {
-  
-  if (num> 50); {
-    return true;
-} 
-else {
-return false;
+   return num >50;
 }
-}
-mayorQueCincuenta(52)
+mayorQueCincuenta(55)
 true
 
 function obtenerResto(x, y) {
@@ -132,7 +120,7 @@ function elevarAlCuadrado(num) {
 
 return Math.pow( 4, 2);
 }
-elevalAlCuadrado( 4, 2)
+ elevarAlCuadrado( 4, 2)
 16
 
 function elevarAlCubo(num) {
@@ -171,35 +159,33 @@ numeroRandom ( 1)
 0.62573
 
 function esPositivo(numero) {
-  //La función va a recibir un entero. Devuelve como resultado una cadena de texto que indica si el número es positivo o negativo. 
-  //Si el número es positivo, devolver ---> "Es positivo"
-  //Si el número es negativo, devolver ---> "Es negativo"
-  //Si el número es 0, devuelve false
-  if (numero === 0); {
-  return false;
+  if (numero === 0) {
+    return false;
   }
-  else if (numero > 0);{
+  else if( numero > 0) {
     return "es positivo";
   }
-  else (numero < 0); {
+  else {
     return "es negativo";
   }
 }
-esPositivo( 22)
-"es positivo"
+  esPositivo(22)
+  "es positivo"
 
 function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
+
 }
 
 function combinarNombres(nombre, apellido) {
-  // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
-  // Ejemplo: "Soy", "Henry" -> "Soy Henry"
-  // Tu código:
-  
+
+  var combineta = 'Gianni' + ' ' + 'Crisci';
+  return combineta;
 }
+combinarNombres()
+Gianni Crisci
 
 function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
