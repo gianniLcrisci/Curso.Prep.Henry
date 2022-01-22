@@ -75,10 +75,11 @@ true
 
 
 function tienenMismaLongitud(str1, str2) {
-  // Devuelve "true" si las dos strings tienen la misma longitud
-  // De lo contrario, devuelve "false"
-  // Tu código:
-  
+if ( str1.length === str2.length) {
+    return true; 
+  } else {
+    return false;
+  }
 }
 
 function menosQueNoventa(num) {
@@ -222,8 +223,7 @@ function obtenerSaludo(nombre) {
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
-  // Retornar el area de un rectángulo teniendo su altura y ancho
-  // Tu código:
+
   return 15 * 10;
 
 }
@@ -232,8 +232,7 @@ obtenerAreaRectangulo ()
 
 
 function retornarPerimetro(lado){
-  //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
-  //Escribe tu código aquí
+  
   return 12 * 4;
 }
 retornarPerimetro()
@@ -241,8 +240,7 @@ retornarPerimetro()
 
 
 function areaDelTriangulo(base, altura){
-  //Desarrolle una función que calcule el área de un triángulo.
-  //Escribe tu código aquí
+
 return (15 * 12) /2;
 }
 areaDelTriangulo ()
@@ -250,21 +248,26 @@ areaDelTriangulo ()
 
 
 function deEuroAdolar(euro){
-  //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
-  //como parámetro un número de euros y calcule el cambio en dólares.
-  //Escribe tu código aquí
-  
+  return 1 * 1.2;
 }
+deEuroAdolar(2)
+2.4
 
 
 function esVocal(letra){
-  //Escribe una función que reciba una letra y, si es una vocal, muestre el mensaje “Es vocal”. 
-  //Verificar si el usuario ingresó un string de más de un carácter, en ese caso, informarle 
-  //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
-  // Si no es vocal, tambien debe devolver "Dato incorrecto".
-  //Escribe tu código aquí
-  
+  if (letra.length >1) {
+    return "Dato incorrecto";
+  }
+  if (letra === 'a' || letra === 'e' || letra === 'i' || letra === 'o' || letra === 'u') {
+    return "es vocal";
+  }
+  {
+    return "dato incorrecto";
 }
+  }
+  esVocal (A)
+  "es vocal"
+
 
 
 
